@@ -1,4 +1,4 @@
-RoboFriends 미니 웹페이지
+로보프렌즈(RoboFriends) 미니 웹페이지
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
