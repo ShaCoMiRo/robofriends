@@ -1,6 +1,6 @@
 import React from 'react';
 
-// childeren을 활용하여
+// childeren을 활용하여 자식 노드들을 활용.
 const Scroll = (props) => {
     // console.log(props);
     // 자식 노드를 가지는 경우, props는 children의 요소들을 포함하게 된다.
