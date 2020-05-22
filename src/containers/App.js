@@ -28,11 +28,12 @@ class App extends Component {
     }
 
     render() {
-        const filteredRobots = this.state.robots.filter(robot => {
-            return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+        const { robots, searchfield } = this.state;
+        const filteredRobots = robots.filter(robot => {
+            return robot.name.toLowerCase().includes(searchfield.toLowerCase());
         })
 
-        if(this.state.robots.length === 0) {
+        if(!robots.length) {
             // 완전히 json이 로딩되지 않아 this.state.robots의 길이가 0인 경우.
             return <h1>Loading</h1>
         } else {
